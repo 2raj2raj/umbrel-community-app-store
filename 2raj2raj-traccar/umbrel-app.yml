@@ -1,1 +1,26 @@
-
+manifestVersion: 1
+id: 2raj2raj-traccar
+name: Traccar
+tagline: Modern GPS Tracking System
+icon: https://raw.githubusercontent.com/2raj2raj/umbrel-community-app-store/d521d1941340ed7d1396536bb5a585b7f5a8eb4b/2raj2raj-traccar/icon.png
+category: Utilities
+version: "6.5"
+port: 8082
+description: >-
+  Traccar is an open-source GPS tracking system supporting hundreds of web and mobile protocols.
+developer: Anton Tananaev
+website: https://www.traccar.org
+submitter: 2raj2raj
+submission: https://github.com/2raj2raj/umbrel-community-app-store
+repo: https://github.com/traccar/traccar-docker
+support: https://www.traccar.org/forums/
+gallery:
+  - https://raw.githubusercontent.com/2raj2raj/umbrel-community-app-store/refs/heads/master/2raj2raj-traccar/gallery-1.png
+  - https://raw.githubusercontent.com/2raj2raj/umbrel-community-app-store/refs/heads/master/2raj2raj-traccar/gallery-2.png
+  - https://raw.githubusercontent.com/2raj2raj/umbrel-community-app-store/refs/heads/master/2raj2raj-traccar/gallery-3.png
+releaseNotes: >-
+  Initial release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
