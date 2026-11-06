@@ -1,1 +1,18 @@
+version: "3.7"
 
+services:
+  app_proxy:
+    environment:
+      APP_HOST: 2raj2raj-traccar_server_1
+      APP_PORT: 8082
+
+  server:
+    image: traccar/traccar:latest
+    init: true
+    ports:
+      - "5055:5055"
+      - "5023:5023"
+    volumes:
+      - ${APP_DATA_DIR}/data/logs:/opt/traccar/logs
+      - ${APP_DATA_DIR}/data/data:/opt/traccar/data
+    restart: on-failure
